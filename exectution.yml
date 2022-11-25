@@ -1,0 +1,6 @@
+date=date '+%d_%m_%Y_05_'
+#echo $date
+cd /opt/Logs/dmApp
+logfile=ClientProv_30xcf_$date*.log
+#echo $logfile
+cat $logfile |grep "Loading InRoamer Details.."
